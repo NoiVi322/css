@@ -1,0 +1,221 @@
+
+body{
+    background-image: url(../pics/mounts.jpg);
+    background-size: cover;
+    /*background-position: center; */
+    background-repeat: no-repeat;
+
+    
+    margin: 0;
+
+    display: grid;
+    grid-template-rows: 1fr auto;
+
+    font-family: Arial, sans-serif;
+    color: white;
+}
+/* Шапка */
+
+header {
+    margin-top: 8vh;
+    text-align: center;    
+}
+
+.logo-menu li:last-child{
+    vertical-align: top;
+}
+
+.logo-menu p:first-child{
+    letter-spacing: 7px;
+    padding-bottom: 3vh;
+    font-size: 18px;
+}
+
+.logo-menu p:last-child{
+    font-size: 12px;
+    margin-right: 8px;
+    margin-top: -5vh;
+}
+
+li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu li:hover {
+    color: #ffcc00;
+    text-decoration-line: underline;
+    text-underline-offset: 10px;
+}
+
+.logo {
+    font-style: inherit;
+    font-weight: bolder;
+    float: left;
+    margin-left: 10vh;
+
+}
+.h1 h1 {
+    font-weight: bold;
+}
+
+.menu {
+    float: right;
+    margin-right: 13vh;
+    margin-top: 5vh;
+    font-weight: bolder;
+}
+
+/* Основной блок */
+
+.main {
+    margin-top: 15vh;
+}
+.txt .text {
+    margin: 0 auto;
+}
+
+.txt .h1{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.text {
+    font-size: 16px;
+}
+
+.text p:first-child{
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.text p:last-child {
+    padding: 0;
+    margin-top: 0;
+}
+
+.main .txt, .div-btn{
+    margin: 3vh;
+    text-align: center;
+}
+
+
+.btn {
+    background-color: #ffcc00;
+    color: #000000;
+    border: none; 
+    border-radius: 30px; 
+    padding: 0px 64px; 
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+
+}
+
+
+/* Таблица */
+
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 колонки */
+    gap: 20px; /* Расстояние между элементами */
+    width: 70%; /* Задайте желаемую ширину таблицы */
+    margin: 0 auto; /* Центрируем таблицу по горизонтали */
+	
+}
+
+.element {
+    display: flex; /* Используем flex для центрирования контента */
+    align-items: center; /* Центрируем по вертикали */
+    justify-content: center; /* Центрируем по горизонтали */
+    text-align: center; /* Выравнивание текста по центру */
+	
+	
+}
+
+.element img {
+    max-width: 100%; /* Максимальная ширина изображения 100% от родительского элемента */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+	
+}
+
+.element-2 {
+    background: #ffcc00;
+	align-items: center
+
+}
+
+.qwe {
+    color: black;   
+}
+
+.qwe h5 {
+    font-size: 20px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.qwe p{
+    padding: 0 10px 0 10px;
+}
+
+.qwe button {
+    background-color: #333;
+    color: #ffcc00;
+    border: none; 
+    border-radius: 30px; 
+    padding: 0px 64px; 
+    font-size: 12px;
+    height: 40px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+
+
+/* Подвал */
+
+hr {
+    
+    width: 71%;
+    border-color: #333;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-menu img{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
